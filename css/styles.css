@@ -3962,7 +3962,7 @@ input[type=button].btn-block {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -10472,3 +10472,135 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+
+/* =========================
+   Services Section Styling
+   ========================= */
+
+.services-section {
+    background-color: #f8fafc;
+}
+
+.service-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px 25px;
+    height: 100%;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.12);
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: #ffc800; /* matches your theme primary */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.service-card h4 {
+    font-weight: 700;
+}
+
+.service-card p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* =========================
+   Portfolio Card Equal Size
+   ========================= */
+
+.portfolio-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.portfolio-card img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolio-caption {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.favourites-section {
+    background-color: #ffffff;
+}
+
+.favourites-list .list-group-item {
+    border: none;
+    padding: 25px 0;
+}
+
+.favourites-list .list-group-item + .list-group-item {
+    border-top: 1px solid #e5e7eb;
+}
+
+.favourite-badge {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #0f172a; /* matches dark portfolio */
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.favourites-list h5 {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+
+
+
+
+    .timeline li .timeline-image {
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .timeline li .timeline-panel {
+        border-radius: 0.5rem;
+        padding: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .timeline li .timeline-panel:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    }
+
+    .timeline li.timeline-inverted .timeline-panel {
+        border-left: none;
+        border-right: 6px solid;
+    }
+
