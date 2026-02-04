@@ -52,3 +52,18 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+
+
+// JavaScript for automatic slideshow
+const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+
+function showNextSlide() {
+  slides[currentSlide].classList.remove('active');
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].classList.add('active');
+}
+
+// Show next slide every 5 seconds
+setInterval(showNextSlide, 5000);
