@@ -10577,30 +10577,62 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
+/* Each slide */
+.slide {
+  display: none;
+  position: relative;
+  width: 100%;
+}
 
-    .timeline li .timeline-image {
-        width: 120px;
-        height: 120px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
+.slide.active {
+  display: block;
+}
 
-    .timeline li .timeline-panel {
-        border-radius: 0.5rem;
-        padding: 20px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
+/* Slide image */
+.slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  max-height: 500px;
+  margin-bottom: 20px;
+}
 
-    .timeline li .timeline-panel:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-    }
+/* Slide text */
+.slide-text h4 {
+  color: #38bdf8;
+  margin-bottom: 5px;
+}
+.slide-text h5 {
+  color: #fbbf24;
+  margin-bottom: 10px;
+}
+.slide-text p {
+  color: #e5e7eb;
+  font-size: 1rem;
+  line-height: 1.6;
+}
 
-    .timeline li.timeline-inverted .timeline-panel {
-        border-left: none;
-        border-right: 6px solid;
-    }
-
+/* Responsive */
+@media (max-width:768px) {
+  .slide img {
+    max-height: 350px;
+  }
+}
+@media (max-width:480px) {
+  .slide img {
+    max-height: 250px;
+  }
+  .slide-text p {
+    font-size: 0.9rem;
+  }
+}
