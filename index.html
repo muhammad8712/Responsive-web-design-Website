@@ -18,24 +18,57 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/navbar-logo.svg" alt="" /></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ml-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="padding: 1rem 0;">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <img src="assets/img/logo.jpg" alt="" style="height: 48px; width: auto;" />
+        </a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button"
+            data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false"
+            aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars ml-1"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#services"
+                       style="font-size: 0.95rem; font-weight: 600; letter-spacing: 0.05em;">
+                        Services
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#portfolio"
+                       style="font-size: 0.95rem; font-weight: 600; letter-spacing: 0.05em;">
+                        Portfolio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about"
+                       style="font-size: 0.95rem; font-weight: 600; letter-spacing: 0.05em;">
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#favourites"
+                       style="font-size: 0.95rem; font-weight: 600; letter-spacing: 0.05em;">
+                        Favourites
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact"
+                       style="font-size: 0.95rem; font-weight: 600; letter-spacing: 0.05em;">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
 
         
         <!-- Masthead-->
@@ -46,43 +79,66 @@
                 <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
             </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">I design and develop responsive, secure, and user-friendly websites using modern web technologies and clean design principles.</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">I design and develop basic e-commerce solutions that allow businesses to showcase products, manage orders, and provide a smooth user experience. My work focuses on clean interfaces, proper product layout, and fundamental shopping features while following best practices learned during my web development studies.</p>
+        
+        <!-- Services -->
+<section class="page-section services-section" id="services">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-heading text-uppercase">Services</h2>
+            <h3 class="section-subheading text-muted">
+                I design and develop responsive, secure, and user-friendly websites using modern web technologies.
+            </h3>
+        </div>
+
+        <div class="row text-center">
+            <!-- Service 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
                     </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">I build responsive websites that adapt seamlessly to different screen sizes, including mobile phones, tablets, and desktops. Using Bootstrap and modern CSS techniques, I ensure that layouts remain visually appealing, readable, and user-friendly across all devices.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">I apply foundational web security practices to protect websites from common vulnerabilities. This includes form validation, secure handling of user input, and awareness of threats such as SQL injection and cross-site scripting, based on concepts studied in computer science and web security courses.</p>
-                    </div>
+                    <h4 class="my-3">E-Commerce</h4>
+                    <p class="text-muted">
+                        I design and develop clean and functional e-commerce solutions focused on usability,
+                        structured layouts, and smooth shopping experiences.
+                    </p>
                 </div>
             </div>
-        </section>
+
+            <!-- Service 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h4 class="my-3">Responsive Design</h4>
+                    <p class="text-muted">
+                        I build responsive layouts that adapt beautifully to mobile, tablet, and desktop screens
+                        using Bootstrap and modern CSS.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h4 class="my-3">Web Security</h4>
+                    <p class="text-muted">
+                        I apply fundamental web security practices such as validation, secure input handling,
+                        and awareness of common vulnerabilities.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
         <!-- Portfolio Grid-->
-        <section class="page-section bg-light" id="portfolio">
+        <section class="page-section" id="portfolio" style="background-color:#0f172a;">
+
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Portfolio</h2>
@@ -90,12 +146,13 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item portfolio-card">
+
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/02-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/portfolio/01-full.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Student Management System</div>
@@ -104,12 +161,13 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item portfolio-card">
+
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/01-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/portfolio/02-full.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Online Shopping Website</div>
@@ -118,12 +176,13 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item portfolio-card">
+
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/03-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/portfolio/03-full.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Personal Portfolio Website</div>
@@ -132,12 +191,13 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item portfolio-card">
+
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/04-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/portfolio/04-full.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Library Management System</div>
@@ -146,12 +206,13 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item portfolio-card">
+
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/05-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/portfolio/05-full.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Chat Application</div>
@@ -160,12 +221,13 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item portfolio-card">
+
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="" />
+                                <img class="img-fluid" src="assets/img/portfolio/06-full.jpg" alt="" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">Online Quiz System</div>
@@ -177,127 +239,146 @@
             </div>
         </section>
         <!-- About-->
-        <section class="page-section" id="about">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted">This section is about my acedemic journey and experiences</h3>
-                </div>
-                <ul class="timeline">
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2019-2021</h4>
-                                <h4 class="subheading">Start of my career</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">I started my career at intermediate level with Computer Science as my major and passed with distinction.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>2022</h4>
-                                <h4 class="subheading">Starting Online Blog</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">After Intermediate education I took a break from studes and started an online blog related to tech and ecommerce which helped me learn alot about the tech market and understanding the business.</p></div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>December 2023</h4>
-                                <h4 class="subheading">Started Study on Scholarship</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">I came to Hungary for bachelors in CS on a fully funted scholarship and started my studies in one of the most prestigious institutes in Hungary.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2025</h4>
-                                <h4 class="subheading">Started Wroking in the domain</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">I started my professional career with an internship at my own university as a teaching assistant and later I started freelancing my services as well.</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Team-->
-<!-- Favourites Section-->
-<section class="page-section bg-light" id="favourites">
+        <section class="page-section" id="about" style="background: linear-gradient(to right, #0f172a, #1e293b); color: #f8fafc; padding: 80px 0;">
     <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Your Favourites</h2>
-            <h3 class="section-subheading text-muted">Preferences on your favourite activities, food, sports, etc.</h3>
-        </div>
-        <div class="row text-center">
-            <div class="col-lg-4">
-                <div class="favourite-item">
-                    <i class="fas fa-running fa-4x text-primary mb-3"></i>
-                    <h4>Sports</h4>
-                    <p class="text-muted">I am a huge cricket fan and I can watch it any where anytime and for playing i like football and horse riding alot.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="favourite-item">
-                    <i class="fas fa-utensils fa-4x text-primary mb-3"></i>
-                    <h4>Food</h4>
-                    <p class="text-muted">My favourite food is biryani and I also like Chicken karahi and mutton quorma alot.</p>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="favourite-item">
-                    <i class="fas fa-palette fa-4x text-primary mb-3"></i>
-                    <h4>Activities</h4>
-                    <p class="text-muted">My favourite activity during free time is cooking and listening to qawali.</p>
-                </div>
-            </div>
+        <div class="text-center mb-5">
+            <h2 class="section-heading text-uppercase" style="color: #38bdf8;">About Me</h2>
+            <p class="section-subheading text-muted" style="color: #cbd5e1;">
+                My journey in technology and experiences that shaped my professional path.
+            </p>
         </div>
         
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image shadow-lg" style="border: 4px solid #38bdf8;">
+                    <img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="Start of Career">
+                </div>
+                <div class="timeline-panel shadow-lg" style="background-color: #1e293b; border-left: 6px solid #38bdf8;">
+                    <div class="timeline-heading">
+                        <h4>2019-2021</h4>
+                        <h4 class="subheading text-info">Start of My Career</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-light">Started my intermediate studies in Computer Science with distinction, laying the foundation for my tech career.</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="timeline-inverted">
+                <div class="timeline-image shadow-lg" style="border: 4px solid #facc15;">
+                    <img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="Blog Start">
+                </div>
+                <div class="timeline-panel shadow-lg" style="background-color: #1e293b; border-left: 6px solid #facc15;">
+                    <div class="timeline-heading">
+                        <h4>2022</h4>
+                        <h4 class="subheading text-warning">Starting Online Blog</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-light">Ventured into blogging about tech & e-commerce, gaining insights into market trends and business understanding.</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="timeline-image shadow-lg" style="border: 4px solid #10b981;">
+                    <img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="Scholarship">
+                </div>
+                <div class="timeline-panel shadow-lg" style="background-color: #1e293b; border-left: 6px solid #10b981;">
+                    <div class="timeline-heading">
+                        <h4>Dec 2023</h4>
+                        <h4 class="subheading text-success">Bachelors on Scholarship</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-light">Moved to Hungary on a fully funded scholarship, joining a top institute to pursue Computer Science.</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="timeline-inverted">
+                <div class="timeline-image shadow-lg" style="border: 4px solid #f472b6;">
+                    <img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="Professional Work">
+                </div>
+                <div class="timeline-panel shadow-lg" style="background-color: #1e293b; border-left: 6px solid #f472b6;">
+                    <div class="timeline-heading">
+                        <h4>July 2025</h4>
+                        <h4 class="subheading text-pink-400">Professional Work</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-light">Started as a teaching assistant and later freelancing, gaining hands-on experience in web development and project management.</p>
+                    </div>
+                </div>
+            </li>
+            
+            <li class="timeline-inverted">
+                <div class="timeline-image shadow-lg" style="background: linear-gradient(135deg, #f97316, #fbbf24); color: #1e293b;">
+                    <h4>Be Part<br>Of Our<br>Story!</h4>
+                </div>
+            </li>
+        </ul>
     </div>
 </section>
 
-        <!-- Clients-->
-        <div class="py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/envato.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/designmodo.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/themeforest.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid d-block mx-auto" src="assets/img/logos/creative-market.jpg" alt="" /></a>
-                    </div>
-                </div>
-            </div>
+        <!-- Team-->
+
+<!-- Favourites Section -->
+<section class="page-section favourites-section" id="favourites" >
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-heading text-uppercase">Your Favourites</h2>
+            <h3 class="section-subheading text-muted">
+                A glimpse into what I enjoy beyond coding.
+            </h3>
         </div>
+
+        <ul class="list-group list-group-flush favourites-list">
+
+            <li class="list-group-item d-flex align-items-start">
+                <div class="favourite-badge">
+                    <i class="fas fa-running"></i>
+                </div>
+                <div class="ml-4">
+                    <h5>Sports</h5>
+                    <p class="text-muted mb-0">
+                        A passionate cricket fan who also enjoys football and horse riding.
+                    </p>
+                </div>
+            </li>
+
+            <li class="list-group-item d-flex align-items-start">
+                <div class="favourite-badge">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <div class="ml-4">
+                    <h5>Food</h5>
+                    <p class="text-muted mb-0">
+                        Biryani is my all-time favourite, along with chicken karahi and mutton qorma.
+                    </p>
+                </div>
+            </li>
+
+            <li class="list-group-item d-flex align-items-start">
+                <div class="favourite-badge">
+                    <i class="fas fa-headphones"></i>
+                </div>
+                <div class="ml-4">
+                    <h5>Activities</h5>
+                    <p class="text-muted mb-0">
+                        Cooking and listening to qawali help me unwind and recharge.
+                    </p>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</section>
+
+        
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">We would love to help.</h3>
                 </div>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
@@ -359,7 +440,7 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Student Management System</h2>
                                     <p class="item-intro text-muted">The project is about managing students at a university level.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
                                     <p>The Student Management System was developed to manage and organize student records efficiently. It allows administrators to add, update, search, and delete student information, including academic details and course registrations. This project helped me understand object-oriented programming concepts, database connectivity, and structured application design while improving my problem-solving and system-analysis skills.</p>
                                     <ul class="list-inline">
                                         <li>Date: April 2024</li>
@@ -389,7 +470,7 @@
                                     <!-- Project Details Go Here-->
                                     <h2 class="text-uppercase">Online Shopping Website</h2>
                                     <p class="item-intro text-muted">This is the project managament system for online shopping.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/01-full.jpg" alt="" />
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/02-full.jpg" alt="" />
                                     <p>This project involved building a responsive online shopping website with product listings, a shopping cart, and basic order processing functionality. The focus was on creating an interactive user experience using JavaScript for dynamic content handling and client-side logic. Through this project, I gained hands-on experience with DOM manipulation, event handling, and responsive web design principles.</p>
                                     <ul class="list-inline">
                                         <li>Date: January 2024</li>
@@ -536,3 +617,4 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
